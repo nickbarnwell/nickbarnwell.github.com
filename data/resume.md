@@ -1,87 +1,78 @@
-Daniel Mayer  
-dan@mayerdan.com  
-503-819-3246  
-821 Maryland Ave NE #305  
-Washington, DC 20002  
+[Nick Barnwell](mailto:nick@boltoncomputing.com)  
+18 Tuborg Havnepark, 4 TV  
+2900 Hellerup, Denmark  
 
-[GitHub](http://github.com/danmayer)  
-[Blog](http://mayerdan.com)  
 
 Skills
-----------------
+================
+[GitHub](http://github.com/nickbarnwell)  
+
+* Python 
+  * Django
+  * CherryPy
+  * Flask
 
 * Ruby
-  * Rails
   * Sinatra
-  * Merb
-  * EventMachine
+  * Nokogiri/Mechanize
   * DataMapper
-  * Custom EventMachine-based protocols
 
-* Tools
-  * Linux
-  * OS X
-  * Javascript (JQuery/Prototype)
-  * HTML
-  * Amazon Web Services (Ec2, SimpleDB, S3, SQS)
-  * Distributed Computing
-  * Apache
+* Java
+  * Play Framework
+  * Hibernate ORM
+
+* Tools & Environments
+  * OS agnostic
+  * HTML/CSS
+  * Amazon Web Services (EC2,S3)
+  * Heroku  
   * MySQL
-  * PostgreSQL
-  * Schemaless DBs (NoSql)
   * RESTul webservice API's
+  * git/hg
 
-* Style
-  * Pair Programming
-  * Test-Focused Development
-  * Distributed Teams
-  * Agile team management
-  * Contributor to Ruby OSS software
-  * Active on Github
+* Misc. Skills and Work Patterns
+  * Distributed Teams/Remote Development
+  * Test Driven Development
+  * Active GitHub user
 
-Work Experience
----------------
-__LivingSocial__  
-Software Developer  
-June 2010 - Current  
-Working with a small team of developers to grow LivingSocial. Working on mobile apps, mobile site, APIs, and backend tools.  
+Professional Experience
+=========================
+Podio
+--------
+Software Developer -- Intern   
+February 2011 - Present 
 
-__Devver__  
-Founder / CTO / Ruby Software Developer  
-April 2008 - April 2010  
-Software startup to make the lives of developers easier. Originally developed accelerated testing for Ruby developers. More recently, launched getcaliper.com, which builds code analytics for all Rubygems and builds metrics for public and private git-based Ruby projects.  
+Bringing the best parts of the social web to the workplace and democratizing work tools
 
-* Built accelerated testing tool, using distributed computing services to run developer tests
-* Developed a cloud-based continuous integration server and notification services
-* Developed cloud-based code metrics and analytics project analyzer, which integrated with Rubygems.org to provide analytics on all public Rubygems and many OSS git-based projects (7000+ projects)
-* Member of a distributed agile team -- practiced daily standups, remote pair programming, and continuous integration
-* Worked extensively with cloud based services and distributed computing techniques. (EC2, Beanstalkd queues, Schemaless SimpleDB, S3)
-* Developed and deployed EventMachine, Merb, Rails, and Sinatra in production environments
+* Working with the lead backend developer to augment Podio's integration services. 
+* Provide support and guidance to third party API developers, and serve as API evangelist
+* Developed Python API client
 
-__Pretheory__  
-Founder  
-May 2007 - April 2008  
-Small Denver-based consumer web startup. Built [Seekler.com](http://seekler.com) to help people find the best of everything online by user generated, community-based top 10 lists on topics or products. Seekler was a social way to rank things with friends or the entire community.  
+Aptium LLC
+-----------
+Junior Developer -- Internship   
+June 2010 - August 2010   
 
-__Indigio__  
-Java Lead Engineer  
-August 2006 - May 2007  
-Developed web sites for Fortune 500 companies. Managed a small Java team with local and international remote employees.  
+Startup developing a SaaS SIS platform. 
 
-* Developed and deployed large scale newspaper, real estate, and car rental companies Java sites
+* Served as liaison between new clients and transition team; created system and tools for automatic import of data from competing SIS software.
+* Provided customer support and collected requirements from new users of the SchoolBrains system
+* Fully documented required environment for acquired Ruby on Rails application 
+* Standardized development environment and lead move from Git to inhouse SVN system
+* Created runbook for deployment and configuration of application in both development and production environments
 
 
-__Impact Science & Technology (IST)__  
-Java Software Engineer  
-December 2005 - June 2006  
-Developed full lifecycle of a DOD distributed synchronous infrastructure in Java.  
+DeviceKnit
+-----------
+Developer 
+August 2010 - January 2011
+
+The online pattern-book for gadgets -- helping users to find new ways to combine their personal electronics and integrate them into their day to day life.
+
+* Improved front end interface for implementation creation, including significant rewrite of legacy code
+* Implemented features such as implementation recommendation engine
+* Lead database normalization effort
 
 
-Education
----------------  
-University of Colorado  
-Boulder, CO  
-B.S., Computer Science  
-GPA: 3.185  
 
 _References available on request_  
