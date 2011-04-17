@@ -7,14 +7,15 @@ body { color: #000000; }
   visibility: hidden;
 }
 #formats {
-  width: 800px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   font-family: serif;
+  text-align: center;
   background-color: #f2f2f2;
 }
 #footer {
-  width: 800px;
+  width: 650px;
   margin-left: auto;
   margin-right: auto;
   font-family: serif;
@@ -25,6 +26,35 @@ body { color: #000000; }
   margin-right: auto;
   font-family: serif;
 }
+#resume h1 {
+  background: #234fbd;
+  color: white;
+}
+#resume h2 {
+  background-color: #3477ff;
+  color: #ffffff;
+}
+#resume h3 {
+  background-color: #3477ff;
+  color: #ffffff;
+}
+#resume h4 {
+  background-color: #3477ff;
+  color: #ffffff;
+}
+#resume h5 {
+  background-color: #3477ff;
+  color: #ffffff;
+}
+#resume h6 {
+  background-color: #3477ff;
+  color: #ffffff;
+}
+#resume ul {
+  margin: -0.8em;
+  list-style-type: square;
+}
+#resume ul p { font-weight: bold; }
 #resume blockquote {
   border-left: 5px solid #dddddd;
   margin: 1em 0;
