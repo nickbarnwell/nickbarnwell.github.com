@@ -207,3 +207,8 @@ section.skills dd {
 footer div {
   display: inline-block;
 }
+
+/* Special section for per-section CSS */
+#education {
+  display:none;
+}

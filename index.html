@@ -2,6 +2,15 @@
   <head>
     <title>Nick Barnwell's Resume</title>
     <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+      window.onload = function() {
+      var educationSection = document.getElementById('education');
+      var pathname = window.location.hash;
+      if(pathname === '#education') {
+        educationSection.style.display = 'block';
+      }
+    }
+    </script>
   </head>
   <body>
 
@@ -123,7 +132,7 @@
         </article>
       </section>
       <section>
-      <section>
+      <section id='education'>
       <h1>education</h1>
         <p>First-year student at University of Washington Seattle.<br> Intended Major: Computer Science <br>Graduating: Spring 2014</p>
         <article>
@@ -150,6 +159,7 @@
         <article>
         <blockquote>
         <ul>
+          <li>Commendation - Facebook Hackathon @ FacebookHQ</li>
           <li>Facebook Hackathon @ UW Seattle Winner</li>
           <li>Outstanding Achievement in Computer Science, Copenhagen International School 2010</li>
         </ul>
