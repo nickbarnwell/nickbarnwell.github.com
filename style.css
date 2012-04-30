@@ -212,3 +212,7 @@ footer div {
 #education {
   display:none;
 }
+
+.novis {
+  display: none;
+}

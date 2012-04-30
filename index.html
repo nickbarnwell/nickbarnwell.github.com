@@ -1,7 +1,8 @@
 <html>
   <head>
     <title>Nick Barnwell's Resume</title>
-    <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="styleprint.css" media="print" rel="stylesheet" type="text/css" />
     <script type="text/javascript">
       window.onload = function() {
       var educationSection = document.getElementById('education');
@@ -63,10 +64,15 @@
 
       <section class='jobs' id='experience'>
         <h1>professional experience</h1>
+        <article class='job novis'>
+        <h2>Google</h2>
+        <p>Software Engineering Intern <br>
+        June 2012 &ndash; September 2012</p> 
+        </article>
         <article class='job'>
         <h2>Estately</h2>
           <p>Software Developer &mdash; Intern <br/>
-          August 2011 &ndash; Present</p>
+          August 2011 &ndash; Mar 2012</p>
 
           <blockquote>
           <ul>
@@ -118,14 +124,13 @@
           </ul>
           </blockquote>
         </article>
-        <article>
+        <article class='job'>
         <h2>BoltonComputing</h2>
         <p>Consulting<br/>
         August 2006 &ndash; Present</p>
         <blockquote>
         <ul>
         <li>Designed and implemented software to improve proccesses at companies in industries from finance to real estate</li>
-        <li>Performed small business server administration duties</li>
         </blockquote>
         </article>
       </section>
@@ -153,6 +158,7 @@
         </dl>
         </article>
       </section>
+      <section id='awards'>
       <h1>awards</h1>
         <article>
         <blockquote>
