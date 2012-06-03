@@ -2,15 +2,16 @@
   <head>
     <title>Nick Barnwell's Resume</title>
     <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="styleprint.css" media="print" rel="stylesheet" type="text/css" />
     <script type="text/javascript">
-      window.onload = function() {
-      var educationSection = document.getElementById('education');
-      var pathname = window.location.hash;
-      if(pathname === '#!education') {
-        educationSection.style.display = 'block';
+      var revealEdu = function() {
+        var educationSection = document.getElementById('education');
+        var pathname = window.location.hash;
+        if(pathname === '#!education') {
+          educationSection.style.display = 'block';
+        }
       }
-    }
+      window.onhashchange = revealEdu;
+      window.onload = revealEdu;
     </script>
   </head>
   <body>
@@ -45,6 +46,7 @@
         <article>
         <h2>tools &amp; environments</h2>
           <ul>
+            <li>Test Driven Development</li>
             <li>Amazon Web Services (EC2,S3, Cloudfront)</li>
             <li>Heroku</li>
             <li>Postgres &amp; MySQL</li>
@@ -52,19 +54,12 @@
             <li>active user of git/hg</li>
           </ul>
         </article>
-        <article>
-        <h2>misc.</h2>
-          <ul>
-            <li>Distributed Teams/Remote Development</li>
-            <li>Test Driven Development</li>
-          </ul>
-        </article>
       </section>
         <br>
 
       <section class='jobs' id='experience'>
         <h1>professional experience</h1>
-        <article class='job novis'>
+        <article class='job'>
         <h2>Google</h2>
         <p>Software Engineering Intern <br>
         June 2012 &ndash; September 2012</p> 
@@ -83,7 +78,7 @@
           </blockquote>
         </article>
         <article class='job'>
-        <h2>Podio</h2>
+        <h2>Podio<sup class="hovernote" id="pnote">*</sup></h2>
           <p>Software Developer &mdash; Intern <br/>
           February 2011 &ndash; July 2011</p>
 
@@ -135,41 +130,42 @@
         </article>
       </section>
       <section>
+        <section id='awards'>
+        <h1>awards</h1>
+          <article>
+          <blockquote>
+          <ul>
+            <li>Commendation - Facebook Hackathon @ FacebookHQ</li>
+            <li>Facebook Hackathon @ UW Seattle Winner</li>
+            <li>Outstanding Achievement in Computer Science, Copenhagen International School 2010</li>
+          </ul>
+          </blockquote>
+          </article>
+        </section>
+
       <section id='education'>
-      <h1>education</h1>
-        <p>First-year student at University of Washington Seattle.<br> Intended Major: Computer Science <br>Graduating: Spring 2014</p>
-        <article>
-        <dl>
-          <h2><dt>SAT</dt></h2>
-          <dd>800 Critical Reading</dd>
-          <dd>740 Mathematics</dd>
-          <dd>710 Writing</dd>
-          <br>
-          <h2><dt>SAT II - Mathematics II: 740</dt></h2>
-          <br>
-          <h2><dt>International Baccalaureate</dt></h2>
-          <dd>Computer Science HL: 7</dd>
-          <dd>English SL: 6</dd>
-          <dd>History HL: 5</dd>
-          <dd>German ab Initio SL: 5</dd>
-          <dd>Physics HL: 5</dd>
-          <dd>Mathematics HL: 4</dd>
-          <dd>Extended Essay (Computer Science): A</dd>
-        </dl>
-        </article>
-      </section>
-      <section id='awards'>
-      <h1>awards</h1>
-        <article>
-        <blockquote>
-        <ul>
-          <li>Commendation - Facebook Hackathon @ FacebookHQ</li>
-          <li>Facebook Hackathon @ UW Seattle Winner</li>
-          <li>Outstanding Achievement in Computer Science, Copenhagen International School 2010</li>
-        </ul>
-        </blockquote>
-        </article>
-      </section>
+        <h1>education</h1>
+          <p>First-year student at University of Washington Seattle.<br> Intended Major: Computer Science <br>Graduating: Spring 2014</p>
+          <article>
+            <dl>
+              <h2><dt>SAT</dt></h2>
+              <dd>800 Critical Reading</dd>
+              <dd>740 Mathematics</dd>
+              <dd>710 Writing</dd>
+              <br>
+              <h2><dt>SAT II - Mathematics II: 740</dt></h2>
+              <br>
+              <h2><dt>International Baccalaureate</dt></h2>
+              <dd>Computer Science HL: 7</dd>
+              <dd>English SL: 6</dd>
+              <dd>History HL: 5</dd>
+              <dd>German ab Initio SL: 5</dd>
+              <dd>Physics HL: 5</dd>
+              <dd>Mathematics HL: 4</dd>
+              <dd>Extended Essay (Computer Science): A</dd>
+            </dl>
+          </article>
+        </section>
     </section>  
   </body>
 </html>

@@ -144,7 +144,7 @@ header {
   text-align: left;
 }
 header hgroup {
-  width: 510;
+  width: 510px;
   margin: 0 auto;
   display: block;
   font-family: "MyriadProRegular", helvetica, arial, verdana, sans-serif;
@@ -208,6 +208,24 @@ footer div {
   display: inline-block;
 }
 
+/* Note on Podio Acquistion */
+sup {
+  vertical-align: super; /* shifts the baseline up */
+  font-size: smaller;
+  line-height: normal;
+ }
+.hovernote {
+  color: #C33234;
+  font-size: 60%;
+
+}
+
+#pnote:hover:after {
+  /* Content in CSS, whargarbblllll */
+  content: "Podio was acquired by Citrix in 2012";
+}
+
+
 /* Special section for per-section CSS */
 #education {
   display:none;
@@ -215,4 +233,14 @@ footer div {
 
 .novis {
   display: none;
+}
+
+@media print {
+  header hgroup {
+    width: 670px;
+  }
+
+  section.content {
+    width: 670px;
+  }
 }
