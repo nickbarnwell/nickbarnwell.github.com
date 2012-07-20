@@ -2,24 +2,13 @@
   <head>
     <title>Nick Barnwell's Resume</title>
     <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
-    <script type="text/javascript">
-      var revealEdu = function() {
-        var educationSection = document.getElementById('education');
-        var pathname = window.location.hash;
-        if(pathname === '#!education') {
-          educationSection.style.display = 'block';
-        }
-      }
-      window.onhashchange = revealEdu;
-      window.onload = revealEdu;
-    </script>
   </head>
   <body>
 
     <header>
       <hgroup>
         <h1><a href="mailto:nick@boltoncomputing.com">nick barnwell</a></h1>
-            <h3><a href='http://github.com/nickbarnwell'>GitHub Projects</a></h3>
+            <h3><a href='http://github.com/nickbarnwell'>http://github.com/nickbarnwell</a></h3>
       </hgroup>
     </header>
 
@@ -28,17 +17,17 @@
         <h1>skills</h1>
         <article>
           <dl>
-            <dt>Python</dt>
+            <dt class="collapse">Python</dt>
               <dd>Django</dd>
               <dd>CherryPy</dd>
               <dd>Flask</dd>
 
-          <dt>Ruby</dt>
+          <dt class="collapse">Ruby</dt>
             <dd>Rails (2|3)</dd>
             <dd>Sinatra</dd>
             <dd>DataMapper</dd>
             
-          <dt>Java</dt>
+          <dt class="collapse">Java</dt>
             <dd>Play Framework</dd>
             <dd>Hibernate</dd>
           </dl>
@@ -63,6 +52,11 @@
         <h2>Google</h2>
         <p>Software Engineering Intern <br>
         June 2012 &ndash; September 2012</p> 
+        <blockquote>
+          <ul>
+            <li>Developed internal tooling for help center team</li>
+            <li>More info on request</li>
+          </ul>
         </article>
         <article class='job'>
         <h2>Estately</h2>
@@ -141,30 +135,6 @@
             <li>Outstanding Achievement in Computer Science, Copenhagen International School 2010</li>
           </ul>
           </blockquote>
-          </article>
-        </section>
-
-      <section id='education'>
-        <h1>education</h1>
-          <p>First-year student at University of Washington Seattle.<br> Intended Major: Computer Science <br>Graduating: Spring 2014</p>
-          <article>
-            <dl>
-              <h2><dt>SAT</dt></h2>
-              <dd>800 Critical Reading</dd>
-              <dd>740 Mathematics</dd>
-              <dd>710 Writing</dd>
-              <br>
-              <h2><dt>SAT II - Mathematics II: 740</dt></h2>
-              <br>
-              <h2><dt>International Baccalaureate</dt></h2>
-              <dd>Computer Science HL: 7</dd>
-              <dd>English SL: 6</dd>
-              <dd>History HL: 5</dd>
-              <dd>German ab Initio SL: 5</dd>
-              <dd>Physics HL: 5</dd>
-              <dd>Mathematics HL: 4</dd>
-              <dd>Extended Essay (Computer Science): A</dd>
-            </dl>
           </article>
         </section>
     </section>  
